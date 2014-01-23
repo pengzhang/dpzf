@@ -164,6 +164,43 @@ public class HouseUtil {
 		return jsonObj;
 	}
 	
+	/**
+	 * 人员类型
+	 * @return
+	 */
+	public static JSONObject persontype(){
+		JSONObject jsonObj = new JSONObject();
+		JSONArray jsonArr = new JSONArray();
+		JSONObject json = new JSONObject();
+		json.put("option1", "租房客");
+		json.put("option2", "房东");
+		json.put("option3", "中介");
+		jsonArr.put(json);
+		jsonObj.put("persontype", jsonArr);
+		return jsonObj;
+	}
+	
+	/**
+	 * 举报类型
+	 * @return
+	 */
+	public static JSONObject reporttype(){
+		JSONObject jsonObj = new JSONObject();
+		JSONArray jsonArr = new JSONArray();
+		JSONObject json = new JSONObject();
+		json.put("option1", "抢劫");
+		json.put("option2", "偷盗");
+		json.put("option3", "性侵犯");
+		json.put("option4", "暴力威胁");
+		json.put("option5", "房租问题");
+		json.put("option6", "房屋问题");
+		json.put("option7", "房屋配置问题");
+		json.put("option8", "其他");
+		jsonArr.put(json);
+		jsonObj.put("reporttype", jsonArr);
+		return jsonObj;
+	}
+	
 	
 	public static void main(String[] args) throws IOException{
 		FileUtils.writeStringToFile(new File(PATH + "payway.json"), payway().toString(), "UTF-8");
@@ -174,6 +211,8 @@ public class HouseUtil {
 		FileUtils.writeStringToFile(new File(PATH + "direction.json"), direction().toString(), "UTF-8");
 		FileUtils.writeStringToFile(new File(PATH + "decoration.json"), decoration().toString(), "UTF-8");
 		FileUtils.writeStringToFile(new File(PATH + "housetype.json"), housetype().toString(), "UTF-8");
+		FileUtils.writeStringToFile(new File(PATH + "persontype.json"), persontype().toString(), "UTF-8");
+		FileUtils.writeStringToFile(new File(PATH + "reporttype.json"), reporttype().toString(), "UTF-8");
 	}
 
 }
