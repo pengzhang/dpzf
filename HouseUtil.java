@@ -18,17 +18,42 @@ public class HouseUtil {
 	public static JSONObject payway(){
 		JSONObject jsonObj = new JSONObject();
 		JSONArray jsonArr = new JSONArray();
-		JSONObject json = new JSONObject();
-		json.put("option1", "押一付一");
-		json.put("option2", "押一付二");
-		json.put("option3", "押一付三");
-		json.put("option4", "押二付一");
-		json.put("option5", "押二付二");
-		json.put("option6", "押二付三");
-		json.put("option7", "半年付");
-		json.put("option8", "年付");
-		json.put("option9", "面议");
-		jsonArr.put(json);
+		
+		JSONObject json1 = new JSONObject();
+		json1.put("option", "押一付一");
+		jsonArr.put(json1);
+		
+		JSONObject json2 = new JSONObject();
+		json2.put("option", "押一付二");
+		jsonArr.put(json2);
+		
+		JSONObject json3 = new JSONObject();
+		json3.put("option", "押一付三");
+		jsonArr.put(json3);
+		
+		JSONObject json4 = new JSONObject();
+		json4.put("option", "押二付一");
+		jsonArr.put(json4);
+		
+		JSONObject json5 = new JSONObject();
+		json5.put("option", "押二付二");
+		jsonArr.put(json5);
+		
+		JSONObject json6 = new JSONObject();
+		json6.put("option", "押二付三");
+		jsonArr.put(json6);
+		
+		JSONObject json7 = new JSONObject();
+		json7.put("option", "半年付");
+		jsonArr.put(json7);
+		
+		JSONObject json8 = new JSONObject();
+		json8.put("option", "年付");
+		jsonArr.put(json8);
+		
+		JSONObject json9 = new JSONObject();
+		json9.put("option", "面议");
+		jsonArr.put(json9);
 		jsonObj.put("payway", jsonArr);
 		return jsonObj;
 	}
@@ -40,11 +65,19 @@ public class HouseUtil {
 	public static JSONObject rentway(){
 		JSONObject jsonObj = new JSONObject();
 		JSONArray jsonArr = new JSONArray();
-		JSONObject json = new JSONObject();
-		json.put("option1", "整套出租");
-		json.put("option2", "单间出租");
-		json.put("option3", "床位出租");
-		jsonArr.put(json);
+		
+		JSONObject json1 = new JSONObject();
+		json1.put("option", "整套出租");
+		jsonArr.put(json1);
+		
+		JSONObject json2 = new JSONObject();
+		json2.put("option", "单间出租");
+		jsonArr.put(json2);
+		
+		JSONObject json3 = new JSONObject();
+		json3.put("option", "床位出租");
+		jsonArr.put(json3);
+		
 		jsonObj.put("rentway", jsonArr);
 		return jsonObj;
 	}
@@ -56,18 +89,47 @@ public class HouseUtil {
 	public static JSONObject facility(){
 		JSONObject jsonObj = new JSONObject();
 		JSONArray jsonArr = new JSONArray();
-		JSONObject json = new JSONObject();
-		json.put("option1", "床");
-		json.put("option2", "衣柜");
-		json.put("option3", "沙发");
-		json.put("option4", "电视");
-		json.put("option5", "冰箱");
-		json.put("option6", "洗衣机");
-		json.put("option7", "空调");
-		json.put("option8", "热水器");
-		json.put("option9", "宽带");
-		json.put("option10", "暖气");
-		jsonArr.put(json);
+		
+		JSONObject json1 = new JSONObject();
+		json1.put("option", "床");
+		jsonArr.put(json1);
+		
+		JSONObject json2 = new JSONObject();
+		json2.put("option", "衣柜");
+		jsonArr.put(json2);
+		
+		JSONObject json3 = new JSONObject();
+		json3.put("option", "沙发");
+		jsonArr.put(json3);
+		
+		JSONObject json4 = new JSONObject();
+		json4.put("option", "电视");
+		jsonArr.put(json4);
+		
+		JSONObject json5 = new JSONObject();
+		json5.put("option", "冰箱");
+		jsonArr.put(json5);
+		
+		JSONObject json6 = new JSONObject();
+		json6.put("option", "空调");
+		jsonArr.put(json6);
+		
+		JSONObject json7 = new JSONObject();
+		json7.put("option", "热水器");
+		jsonArr.put(json7);
+		
+		JSONObject json8 = new JSONObject();
+		json8.put("option", "宽带");
+		jsonArr.put(json8);
+		
+		JSONObject json9 = new JSONObject();
+		json9.put("option", "暖气");
+		jsonArr.put(json9);
+		
+		JSONObject json10 = new JSONObject();
+		json10.put("option", "洗衣机");
+		jsonArr.put(json10);
+		
 		jsonObj.put("facility", jsonArr);
 		return jsonObj;
 	}
@@ -79,11 +141,19 @@ public class HouseUtil {
 	public static JSONObject room(){
 		JSONObject jsonObj = new JSONObject();
 		JSONArray jsonArr = new JSONArray();
-		JSONObject json = new JSONObject();
-		json.put("option1", "主卧");
-		json.put("option2", "次卧");
-		json.put("option3", "隔断");
-		jsonArr.put(json);
+		
+		JSONObject json1 = new JSONObject();
+		json1.put("option", "主卧");
+		jsonArr.put(json1);
+		
+		JSONObject json2 = new JSONObject();
+		json2.put("option", "次卧");
+		jsonArr.put(json2);
+		
+		JSONObject json3 = new JSONObject();
+		json3.put("option", "隔断");
+		jsonArr.put(json3);
+		
 		jsonObj.put("room", jsonArr);
 		return jsonObj;
 	}
@@ -95,11 +165,19 @@ public class HouseUtil {
 	public static JSONObject gender(){
 		JSONObject jsonObj = new JSONObject();
 		JSONArray jsonArr = new JSONArray();
-		JSONObject json = new JSONObject();
-		json.put("option1", "限男生");
-		json.put("option2", "限女生");
-		json.put("option3", "男女不限");
-		jsonArr.put(json);
+		
+		JSONObject json1 = new JSONObject();
+		json1.put("option", "限男生");
+		jsonArr.put(json1);
+		
+		JSONObject json2 = new JSONObject();
+		json2.put("option", "限女生");
+		jsonArr.put(json2);
+		
+		JSONObject json3 = new JSONObject();
+		json3.put("option", "男女不限");
+		jsonArr.put(json3);
+		
 		jsonObj.put("gender", jsonArr);
 		return jsonObj;
 	}
@@ -111,18 +189,47 @@ public class HouseUtil {
 	public static JSONObject direction(){
 		JSONObject jsonObj = new JSONObject();
 		JSONArray jsonArr = new JSONArray();
-		JSONObject json = new JSONObject();
-		json.put("option1", "东");
-		json.put("option2", "西");
-		json.put("option3", "南");
-		json.put("option4", "北");
-		json.put("option5", "南北");
-		json.put("option6", "东西");
-		json.put("option7", "东南");
-		json.put("option8", "西南");
-		json.put("option9", "东北");
-		json.put("option10", "西北");
-		jsonArr.put(json);
+		
+		JSONObject json1 = new JSONObject();
+		json1.put("option", "东");
+		jsonArr.put(json1);
+		
+		JSONObject json2 = new JSONObject();
+		json2.put("option", "南");
+		jsonArr.put(json2);
+		
+		JSONObject json3 = new JSONObject();
+		json3.put("option", "西");
+		jsonArr.put(json3);
+		
+		JSONObject json4 = new JSONObject();
+		json4.put("option", "北");
+		jsonArr.put(json4);
+		
+		JSONObject json5 = new JSONObject();
+		json5.put("option", "东西");
+		jsonArr.put(json5);
+		
+		JSONObject json6 = new JSONObject();
+		json6.put("option", "南北");
+		jsonArr.put(json6);
+		
+		JSONObject json7 = new JSONObject();
+		json7.put("option", "东南");
+		jsonArr.put(json7);
+		
+		JSONObject json8 = new JSONObject();
+		json8.put("option", "西南");
+		jsonArr.put(json8);
+		
+		JSONObject json9 = new JSONObject();
+		json9.put("option", "东北");
+		jsonArr.put(json9);
+		
+		JSONObject json10 = new JSONObject();
+		json10.put("option", "西北");
+		jsonArr.put(json10);
+		
 		jsonObj.put("direction", jsonArr);
 		return jsonObj;
 	}
@@ -134,13 +241,27 @@ public class HouseUtil {
 	public static JSONObject decoration(){
 		JSONObject jsonObj = new JSONObject();
 		JSONArray jsonArr = new JSONArray();
-		JSONObject json = new JSONObject();
-		json.put("option1", "毛坯");
-		json.put("option2", "简单装");
-		json.put("option3", "中等装");
-		json.put("option4", "精装修");
-		json.put("option5", "豪华装");
-		jsonArr.put(json);
+		
+		JSONObject json1 = new JSONObject();
+		json1.put("option", "毛坯");
+		jsonArr.put(json1);
+		
+		JSONObject json2 = new JSONObject();
+		json2.put("option", "简单装");
+		jsonArr.put(json2);
+		
+		JSONObject json3 = new JSONObject();
+		json3.put("option", "中等装");
+		jsonArr.put(json3);
+		
+		JSONObject json4 = new JSONObject();
+		json4.put("option", "精装修");
+		jsonArr.put(json4);
+		
+		JSONObject json5 = new JSONObject();
+		json5.put("option", "豪华装");
+		jsonArr.put(json5);
+		
 		jsonObj.put("decoration", jsonArr);
 		return jsonObj;
 	}
@@ -152,14 +273,31 @@ public class HouseUtil {
 	public static JSONObject housetype(){
 		JSONObject jsonObj = new JSONObject();
 		JSONArray jsonArr = new JSONArray();
-		JSONObject json = new JSONObject();
-		json.put("option1", "普通住宅");
-		json.put("option2", "商住两用");
-		json.put("option3", "公寓");
-		json.put("option4", "平房");
-		json.put("option5", "别墅");
-		json.put("option5", "其他");
-		jsonArr.put(json);
+		
+		JSONObject json1 = new JSONObject();
+		json1.put("option", "普通住宅");
+		jsonArr.put(json1);
+		
+		JSONObject json2 = new JSONObject();
+		json2.put("option", "商住两用");
+		jsonArr.put(json2);
+		
+		JSONObject json3 = new JSONObject();
+		json3.put("option", "公寓");
+		jsonArr.put(json3);
+		
+		JSONObject json4 = new JSONObject();
+		json4.put("option", "平房");
+		jsonArr.put(json4);
+		
+		JSONObject json5 = new JSONObject();
+		json5.put("option", "别墅");
+		jsonArr.put(json5);
+		
+		JSONObject json6 = new JSONObject();
+		json6.put("option", "其他");
+		jsonArr.put(json6);
+		
 		jsonObj.put("housetype", jsonArr);
 		return jsonObj;
 	}
@@ -171,11 +309,19 @@ public class HouseUtil {
 	public static JSONObject persontype(){
 		JSONObject jsonObj = new JSONObject();
 		JSONArray jsonArr = new JSONArray();
-		JSONObject json = new JSONObject();
-		json.put("option1", "租房客");
-		json.put("option2", "房东");
-		json.put("option3", "中介");
-		jsonArr.put(json);
+		
+		JSONObject json1 = new JSONObject();
+		json1.put("option", "租房客");
+		jsonArr.put(json1);
+		
+		JSONObject json2 = new JSONObject();
+		json2.put("option", "房东");
+		jsonArr.put(json2);
+		
+		JSONObject json3 = new JSONObject();
+		json3.put("option", "中介");
+		jsonArr.put(json3);
+		
 		jsonObj.put("persontype", jsonArr);
 		return jsonObj;
 	}
@@ -187,16 +333,39 @@ public class HouseUtil {
 	public static JSONObject reporttype(){
 		JSONObject jsonObj = new JSONObject();
 		JSONArray jsonArr = new JSONArray();
-		JSONObject json = new JSONObject();
-		json.put("option1", "抢劫");
-		json.put("option2", "偷盗");
-		json.put("option3", "性侵犯");
-		json.put("option4", "暴力威胁");
-		json.put("option5", "房租问题");
-		json.put("option6", "房屋问题");
-		json.put("option7", "房屋配置问题");
-		json.put("option8", "其他");
-		jsonArr.put(json);
+		
+		JSONObject json1 = new JSONObject();
+		json1.put("option", "抢劫");
+		jsonArr.put(json1);
+		
+		JSONObject json2 = new JSONObject();
+		json2.put("option", "偷盗");
+		jsonArr.put(json2);
+		
+		JSONObject json3 = new JSONObject();
+		json3.put("option", "性侵犯");
+		jsonArr.put(json3);
+		
+		JSONObject json4 = new JSONObject();
+		json4.put("option", "暴力威胁");
+		jsonArr.put(json4);
+		
+		JSONObject json5 = new JSONObject();
+		json5.put("option", "房租问题");
+		jsonArr.put(json5);
+		
+		JSONObject json6 = new JSONObject();
+		json6.put("option", "房屋问题");
+		jsonArr.put(json6);
+		
+		JSONObject json7 = new JSONObject();
+		json7.put("option", "房屋配置问题");
+		jsonArr.put(json7);
+		
+		JSONObject json8 = new JSONObject();
+		json8.put("option", "其他");
+		jsonArr.put(json8);
+		
 		jsonObj.put("reporttype", jsonArr);
 		return jsonObj;
 	}
